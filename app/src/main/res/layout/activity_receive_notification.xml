@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".ReceiveNotificationActivity">-->
+
+<!--  <TextView-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:text="Category:"-->
+<!--      android:textSize="20sp"-->
+<!--      android:layout_margin="10dp"-->
+<!--      android:layout_gravity="center_horizontal"/>-->
+<!--  <TextView-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:text=""-->
+<!--      android:textSize="20sp"-->
+<!--      android:id="@+id/category"-->
+<!--      android:textColor="@color/colorPrimaryDark"-->
+<!--      android:layout_margin="10dp"-->
+<!--      android:layout_gravity="center_horizontal"/>-->
+
+<!--  <TextView-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:text="Brand Id:"-->
+<!--      android:textSize="20sp"-->
+<!--      android:layout_margin="10dp"-->
+<!--      android:layout_gravity="center_horizontal"/>-->
+<!--  <TextView-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:text=""-->
+<!--      android:textSize="20sp"-->
+<!--      android:id="@+id/brand"-->
+<!--      android:textColor="@color/colorPrimaryDark"-->
+<!--      android:layout_margin="10dp"-->
+<!--      android:layout_gravity="center_horizontal"/>-->
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+tools:context=".ReceiveNotificationActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="40dp"
+    android:layout_gravity="center"
+    android:background="@color/colorAccent"
+    >
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rec_noti_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Title"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/rec_noti_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Body Text"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#0E5791"/>
+
+  </LinearLayout>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
